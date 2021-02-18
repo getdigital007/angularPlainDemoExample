@@ -307,7 +307,7 @@ __webpack_require__.r(__webpack_exports__);
 class ApiService {
     constructor(httpClient) {
         this.httpClient = httpClient;
-        this.SERVER_URL = "http://localhost:8000";
+        this.SERVER_URL = "http://54.145.239.77:8000";
     }
     get(path) {
         return this.httpClient.get(this.SERVER_URL + '/' + path);
